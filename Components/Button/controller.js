@@ -31,7 +31,6 @@ Button.prototype.init = function(id, options){         // this method is overrid
 }
 
 Button.prototype.getWidget = function(){
-    
     return this.view.getWidgetElement();
 }
 

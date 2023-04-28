@@ -18,5 +18,7 @@ var FunctionButton = function (id, options) {
 
 FunctionButton.prototype = Object.create(Button.prototype);  
 FunctionButton.prototype.constructor = FunctionButton; 
+console.dir(FunctionButton.prototype.constructor)
+
  
 
